@@ -3,7 +3,7 @@ const { resolve } = require('path');
 const app = express();
 const port = 3010;
 const mongoose = require('mongoose');
-const MenuItem = require('./menuItemSchema');
+const MenuItem = require('./menuSchema');
 
 mongoose.connect('mongodb+srv://gauthamram:1234@cluster0.qa74x.mongodb.net/')
 
